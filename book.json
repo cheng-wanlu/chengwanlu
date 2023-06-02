@@ -1,0 +1,58 @@
+{
+    "author": "wanlu",
+    "description": "Wanlu's journey of computers.",
+    "extension": null,
+    "generator": "site",
+    "isbn": "",
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        }
+    },
+    "output": null,
+    "pdf": {
+        "fontSize": 12,
+        "footerTemplate": null,
+        "headerTemplate": null,
+        "margin": {
+            "bottom": 36,
+            "left": 62,
+            "right": 62,
+            "top": 36
+        },
+        "pageNumbers": true,
+        "paperSize": "a4"
+    },
+    "plugins": [
+        "chapter-fold",
+        "-expandable-chapters",
+        "-expandable-chapters-small",
+        "hide-element",
+        "code",
+        "include-codeblock",
+        "klipse"
+    ],
+    "pluginsConfig": {
+        "hide-element": {
+            "elements": [
+                ".gitbook-link"
+            ]
+        },
+        "code": {
+            "copyButtons": true
+        },
+        "include-codeblock": {
+            "template": "full",
+            "unindent": true,
+            "theme": "monokai"
+        }
+    },
+    "language": "zh-hans",
+    "title": "wanlu",
+    "variables": {},
+    "styles": {}
+}
