@@ -1,0 +1,1 @@
+[import, lang:"golang"](../rpc_test.go)

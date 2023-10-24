@@ -1,4 +1,4 @@
-# 安装 Docker
+## 安装 Docker
 
 按照 docker 官方文档一步步安装
 
@@ -24,4 +24,17 @@ echo \
 sudo apt-get update
 # 安装 docker
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+## 运行 Docker
+
+```sh
+# 启动 Docker
+sudo systemctl start docker
+
+# 查看所有镜像
+sudo docker image ls
+
+# 查看所有容器
+sudo docker ps -a
 ```
